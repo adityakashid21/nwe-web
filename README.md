@@ -26,3 +26,23 @@ Welcome to the official website repository of **Orangery Ventures** — a forwar
 git clone https://github.com/adityakashid21/nwe-web.git
 cd nwe-web
 
+npm install
+npm run dev
+
+
+.
+├── public/                # Static files
+├── src/                  
+│   ├── components/        # Reusable components
+│   ├── pages/             # Page-level views (Index, NotFound)
+│   ├── hooks/             # Custom hooks
+│   ├── lib/               # Utility functions
+│   ├── App.tsx            # Main app layout
+│   ├── main.tsx           # Entry point
+│   └── index.css          # Tailwind styles
+├── index.html
+├── package.json
+├── tailwind.config.ts
+├── tsconfig.json
+└── vite.config.ts
+
